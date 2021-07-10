@@ -29,6 +29,8 @@ public class TemperatureClientRMIApp {
 			
 			System.out.println("Current temperature in Jasin is " + currentTemperature + " Celcius");
 			
+			
+			
 		} catch (RemoteException | NotBoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
